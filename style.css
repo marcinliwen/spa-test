@@ -3,7 +3,130 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
+    margin:0;
+    padding:0;
 }
 *{
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.spa-main{
+    display: flex;
+    width:100%;
+    background: #D7E9E9;
+}
+.spa-container{
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+}
+.col-4{
+    width: calc(4*(100%/12));
+}
+.col-8{
+    width:calc(8*(100%/12));
+}
+.banner-left>img {
+    position: sticky;
+    top: 0;
+}
+
+.banner-right>img {
+    position: sticky;
+    top: 0;
+    right: 0;
+}
+
+header {
+    height: 257px;
+}
+
+.main {
+    height: 1900px;
+    flex: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+.spa-menu-header {
+    display: flex;
+}
+.spa-element-title {
+    /* font-size: 21px; */
+    position: relative;
+    height: 95px;
+    margin-bottom: 25px;
+}
+
+.spa-element-title>p {
+    background: #fff;
+    border-radius: 9px;
+    padding: 10px 25px;
+    display: block;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 81px;
+    right: 0px;
+    transform: translateY(-50%);
+    font-size: 21px;
+}
+
+.spa-element-title>img {position: relative;z-index: 1;filter: drop-shadow(-11px 10px 5px rgba(0, 0, 0, 0.35));}
+
+.spa-element-desc {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 200;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.spa-element-link {
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.spa-menu-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spa-menu-element {
+    padding: 25px 37px;
+    position: relative;
+    z-index: 2;
+}
+.spa-menu-element:hover {
+    background: #fff;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.spa-menu-element:hover:before, .spa-menu-element:hover:after {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 23px;
+    left: 12px;
+    width: 43%;
+    top: 80%;
+    max-width:300px;
+    background: #777;
+    -webkit-box-shadow: 0 35px 20px #777;
+    -moz-box-shadow: 0 35px 20px #777;
+    box-shadow: 0 35px 20px #777;
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    -o-transform: rotate(-8deg);
+    -ms-transform: rotate(-8deg);
+    transform: rotate(8deg);
+}
+.spa-menu-element:hover:after{
+    -webkit-transform: rotate(8deg);
+    -moz-transform: rotate(8deg);
+    -o-transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    transform: rotate(353deg);
+    right: 10px;
+    left: auto;
 }
