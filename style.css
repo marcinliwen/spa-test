@@ -12,6 +12,7 @@ html {
     width: 100%;
     display: block;
     box-sizing: border-box;
+    scroll-behavior: smooth; 
 }
 *{
     box-sizing: border-box;
@@ -129,13 +130,12 @@ header {
     transition-duration: 0.3s;
     /* margin: 20px 0; */
 }
-.spa-menu-element:hover .spa-el-content {
+.spa-menu-element:hover .spa-el-content, .active .spa-el-content {
     background: #fff;
-    /* z-index: 1; */
-    /* overflow: hidden; */
 }
 
-.spa-menu-element:hover:before, .spa-menu-element:hover:after {
+.spa-menu-element:hover:before, .spa-menu-element:hover:after,
+.spa-menu-element.active:before, .spa-menu-element.active:after {
     z-index: -1;
     position: absolute;
     content: "";
@@ -154,7 +154,7 @@ header {
     -ms-transform: rotate(-8deg);
     transform: rotate(8deg);
 }
-.spa-menu-element:hover:after{
+.spa-menu-element:hover:after, .spa-menu-element.active:after{
     -webkit-transform: rotate(8deg);
     -moz-transform: rotate(8deg);
     -o-transform: rotate(8deg);
@@ -364,6 +364,38 @@ section#spa-packages {
 
 .spa-packages-el .link>a:hover {
     box-shadow: 4px 4px 6px 2px #dcdedd;
+}
+.tabcontent{
+    display: none;
+}
+.tospamenu {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    background: #FFD200;
+    border: none;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 300;
+    padding: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transform: translateY(-100%);
+    transition-timing-function: ease;
+    transition-duration: 0.3s;
+}
+.tospamenu.visible {
+    transform: translateY(0);
+    transition-timing-function: ease;
+    transition-duration: 0.3s;
+}
+.tospamenu>img {
+    width: 32px;
+    margin-left: 6px;
 }
 @media(min-width: 700px){
     .on-desctop {
