@@ -13,6 +13,7 @@ html {
     display: block;
     box-sizing: border-box;
     scroll-behavior: smooth; 
+    -webkit-overflow-scrolling: touch;
 }
 *{
     box-sizing: border-box;
