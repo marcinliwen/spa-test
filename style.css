@@ -77,20 +77,20 @@ header {
 }
 .spa-element-title {
     position: relative;
-    height: 60px;
+    height: 70px;
     margin-bottom: 25px;
 }
 
 .spa-element-title>p {
     background: #fff;
     border-radius: 6px;
-    padding: 10px 19px 10px 60px;
+    padding: 5px 13px 5px 54px;
     display: block;
     margin: 0;
     position: absolute;
     top: 50%;
     right: 0px;
-    left: 9px;
+    left: 26px;
     transform: translateY(-50%);
     font-size: 16px;
 }
@@ -99,8 +99,8 @@ header {
     border-radius: 50%;
     position: relative;
     z-index: 1;
-    filter: drop-shadow(-4px 7px 5px rgba(0, 0, 0, 0.35));
-    width: 60px;
+    filter: drop-shadow(-10px 7px 5px rgba(0, 0, 0, 0.35));
+    width: 70px;
     height: auto;
     border: 1px solid #ffffffba;
     box-shadow: 0px 0px 2px #0000008c;
@@ -110,13 +110,14 @@ header {
     font-size: 15px;
     line-height: 17px;
     font-weight: 400;
-    margin-bottom: 25px;
+    margin-bottom: 1px;
     text-align: justify;
 }
 
 .spa-element-link {
     font-size: 14px;
     cursor: pointer;
+    margin-top: auto;
 }
 
 .spa-menu-list {
@@ -139,7 +140,7 @@ header {
     z-index: -1;
     position: absolute;
     content: "";
-    bottom: 23px;
+    bottom: 33px;
     left: 20px;
     width: 39%;
     top: 80%;
@@ -168,6 +169,9 @@ header {
     z-index: 1;
     border-radius: 6px;
     padding: 20px;
+    min-height: 326px;
+    display: flex;
+    flex-direction: column;
 }
 .banner-left {
     position: absolute;
@@ -347,8 +351,8 @@ span.chevron-r {
 }
 
 .spa-packages-el {
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -376,6 +380,7 @@ section#spa-packages {
     width: 100%;
     background: #FFD200;
     border: none;
+    border-bottom: 5px solid #fff;
     font-size: 26px;
     line-height: 32px;
     font-weight: 300;
