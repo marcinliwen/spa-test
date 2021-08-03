@@ -994,8 +994,13 @@
     })
     var spaMenu = document.querySelector(".spa-menu-list")
     toSpaMenu.addEventListener('click', function(e) {
-        e.stopPropagation();
-        spaMenu.scrollIntoView();
+        //e.stopPropagation();
+        window.scrollTo({
+            top: spaMenu.offsetTop,
+            //left: 100,
+            behavior: 'smooth'
+        });
+        //spaMenu.scrollIntoView();
     })
     </script>
 </body>
