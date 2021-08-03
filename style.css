@@ -232,6 +232,8 @@ img {
     width: 100%;
     height: 90px;
     position: absolute;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(transparent));
+    background: -o-linear-gradient(top, #fff, transparent);
     background: linear-gradient(180deg, #fff, transparent);
     left: 0;
     top: -1px;
