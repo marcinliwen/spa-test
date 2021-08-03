@@ -417,6 +417,9 @@ section#spa-packages {
     margin-left: 6px;
 }
 @media(min-width: 700px){
+    .banner-left, .banner-right {
+        width: 150px;
+    }
     .on-desctop {
     display: block;
 }
