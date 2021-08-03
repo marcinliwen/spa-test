@@ -27,7 +27,7 @@
                             <div class="spa-menu-img"><img class="face_1" src="images/face_1.png"></div>
                         </div>
                     </div>
-                    <div id="spa-menu-list" class="spa-menu-list">
+                    <div class="spa-menu-list">
                         <div id="tb_1" class="spa-menu-element col-4 tabmenu active">
                             <div class="spa-el-content">
                                 <div class="spa-element-title">
@@ -207,7 +207,7 @@
                             <div class="spa-packages-desc">Ten, kto ma cerę wrażliwą i naczynkową wie, że cera ta wymaga specjalnego traktowania, wyjątkowo delikatnych kosmetyków i idealnie dopasowanego planu pielęgnacji. Nie oznacza to jednak, że nie można zapewnić jej takich samych efektów odmładzających, jak innym typom cery. Wystarczy mądrze połączyć takie metody działania, które jednocześnie będą skuteczne i na tyle delikatne, by nie zachwiać jej równowagi. Podatność na podrażnienia i kruchość naczynek to aspekty, które zostały uwzględnione w działaniu każdego zestawu. Odmłodź swoją delikatną skórę!</div>
                         </div>
                     </div>
-                    <a href="#spa-menu-list" class="on-mobile tospamenu"> IDŹ DO MENU <b>SPA</b><img src="images/arrow-top.png"></a>
+                    <button class="on-mobile tospamenu"> IDŹ DO MENU <b>SPA</b><img src="images/arrow-top.png"></button>
                     <div  id="content_1" class="tabcontent" style="display:block">
                     <div class="spa-packages-main ">
                         <div class="spa-packages-el">
@@ -995,7 +995,7 @@
     var spaMenu = document.querySelector(".spa-menu-list")
     toSpaMenu.addEventListener('click', function(e) {
         e.stopPropagation();
-        //spaMenu.scrollIntoView();
+        spaMenu.scrollIntoView();
     })
     </script>
 </body>
