@@ -220,7 +220,7 @@ img {
 }
 
 .spa-menu-desc {
-    text-align: justify;
+    text-align: left;
     font-size: 15px;
     line-height: 17px;
 }
