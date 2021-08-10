@@ -586,7 +586,9 @@ img {
 
   .spa-packages-el-text .desc {
     font-size: 18px;
+    min-height: 88px;
     line-height: 23px;
+    padding: 0 0 16px 0;
   }
 
   .spa-packages-el .link > a {
