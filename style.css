@@ -1,5 +1,55 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@100;200;400;500;600&display=swap");
+/*nadpisanie styli strony cms*/
+.wrap-content .main-container {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
 
+.wrap-content .main-container .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.wrap-content .main-container .main-content {
+  padding-left: 0;
+  padding-right: 0;
+}
+ul.breadcrumb {
+  margin-left: 15.5px;
+  margin-right: 15.5px;
+  padding-left: 9px;
+  padding-right: 9px;
+}
+
+.page .page-header {
+  margin-left: 15.5px;
+  margin-right: 15.5px;
+  padding-left: 9px;
+  padding-right: 9px;
+}
+@media (max-width: 767px){
+  .wrap-footer {
+      margin-left:0;
+      margin-right:0;
+  }
+  ul.breadcrumb {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.page .page-header {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+}
+/*nadpisanie styli strony cms*/
 body {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
@@ -55,10 +105,6 @@ a {
   position: sticky;
   top: 0;
   right: 0;
-}
-
-header {
-  height: 257px;
 }
 
 .main {
@@ -231,7 +277,7 @@ img {
   width: 100%;
   height: 90px;
   position: absolute;
-  background: linear-gradient(180deg, #fff, transparent);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(rgb(255 255 255 /0%)));background-image: -o-linear-gradient(top, #fff, rgb(255 255 255 /0%));background-image: linear-gradient(180deg, #fff, rgb(255 255 255 /0%));
   left: 0;
   top: -1px;
 }
