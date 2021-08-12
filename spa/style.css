@@ -1,5 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@100;200;400;500;600&display=swap");
 
+/*nadpisanie styli strony cms*/
+.wrap-content .main-container {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.wrap-content .main-container .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.wrap-content .main-container .main-content {
+  padding-left: 0;
+  padding-right: 0;
+}
+@media (max-width: 767px){
+  .wrap-footer {
+      margin-left:0;
+      margin-right:0;
+  }
+}
+/*nadpisanie styli strony cms*/
 body {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
@@ -177,8 +202,15 @@ header {
 img {
   width: 100%;
   height: auto;
+  max-width: initial;
 }
-
+a{
+  text-decoration: none;
+}
+p{
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
 .banner-left,
 .banner-right {
   width: 90px;
@@ -519,6 +551,7 @@ img {
     height: calc(100% - 75px);
     margin-left: -182px;
     width: auto;
+    max-width: initial;
   }
 
   .spa-menu-title.on-desctop > img {
@@ -587,7 +620,11 @@ img {
   .spa-packages-el-text .desc {
     font-size: 18px;
     line-height: 23px;
+    padding: 0 0 16px 0;
   }
+  .spa-packages-el-text .desc >p {
+    min-height: 46px;
+}
 
   .spa-packages-el .link > a {
     font-size: 24px;

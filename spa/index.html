@@ -36,7 +36,7 @@
                   <p>
                     Nasz kosmetolog Eliza jest do Twojej dyspozycji, a pisząc na
                     adres: <b>kosmetolog@ohbymo.store,</b> otrzymasz
-                    profesjonalne bezpłatne wsparcie specjalisty, lub umówisz
+                    profesjonalne bezpłatne wsparcie specjalisty, lub umówisz
                     się na telefoniczną konsultację.
                   </p>
                 </div>
@@ -71,7 +71,7 @@
                     zestawu. Odmłodź swoją skórę skutecznie i delikatnie!
                   </div>
                   <div class="spa-element-link">
-                    <a href="javascript:switchTab('tb_1', 'content_1');">
+                    <a data-target="content_1">
                       <b>SPRAWDŹ ZESTAWY</b>
                       <span class="chevron-r">
                         <img width="24px" src="images/chevron-right.png" />
@@ -98,7 +98,7 @@
                     nasze propozycje!
                   </div>
                   <div class="spa-element-link">
-                    <a href="javascript:switchTab('tb_2', 'content_2');">
+                    <a data-target="content_2" >
                       <b>SPRAWDŹ ZESTAWY</b>
                       <span class="chevron-r">
                         <img width="24px" src="images/chevron-right.png" />
@@ -125,7 +125,7 @@
                     przeciwzmarszczkowe OhbyMO!
                   </div>
                   <div class="spa-element-link">
-                    <a href="javascript:switchTab('tb_3', 'content_3');">
+                    <a data-target="content_3" >
                       <b>SPRAWDŹ ZESTAWY</b>
                       <span class="chevron-r">
                         <img width="24px" src="images/chevron-right.png" />
@@ -152,7 +152,7 @@
                     kuracji, bez wychodzenia z domu!
                   </div>
                   <div class="spa-element-link">
-                    <a href="javascript:switchTab('tb_4', 'content_4');">
+                    <a data-target="content_4" >
                       <b>SPRAWDŹ ZESTAWY</b>
                       <span class="chevron-r">
                         <img width="24px" src="images/chevron-right.png" />
@@ -179,7 +179,7 @@
                     nowych przebarwień.
                   </div>
                   <div class="spa-element-link">
-                    <a href="javascript:switchTab('tb_5', 'content_5');">
+                    <a data-target="content_5">
                       <b>SPRAWDŹ ZESTAWY</b>
                       <span class="chevron-r">
                         <img width="24px" src="images/chevron-right.png" />
@@ -206,7 +206,7 @@
                     przekonaj się sama!
                   </div>
                   <div class="spa-element-link">
-                    <a href="javascript:switchTab('tb_6', 'content_6');">
+                    <a data-target="content_6" >
                       <b>SPRAWDŹ ZESTAWY</b>
                       <span class="chevron-r">
                         <img width="24px" src="images/chevron-right.png" />
@@ -233,7 +233,7 @@
                     metabolizmu!
                   </div>
                   <div class="spa-element-link">
-                    <a href="javascript:switchTab('tb_7', 'content_7');">
+                    <a data-target="content_7" >
                       <b>SPRAWDŹ ZESTAWY</b>
                       <span class="chevron-r"
                         ><img
@@ -261,7 +261,7 @@
                     porów i usunięciu zaskórników!
                   </div>
                   <div class="spa-element-link">
-                    <a href="javascript:switchTab('tb_8', 'content_8');">
+                    <a data-target="content_8" >
                       <b>SPRAWDŹ ZESTAWY</b>
                       <span class="chevron-r"
                         ><img
@@ -289,7 +289,7 @@
                     od cebulek, aż po same końce!
                   </div>
                   <div class="spa-element-link">
-                    <a href="javascript:switchTab('tb_9', 'content_9');">
+                    <a data-target="content_9" >
                       <b>SPRAWDŹ ZESTAWY</b>
                       <span class="chevron-r">
                         <img width="24px" src="images/chevron-right.png" />
@@ -303,37 +303,38 @@
         </section>
         <section id="spa-packages">
           <div class="spa-container">
-            <div class="spa-packages-header">
-              <div class="col-4"><img src="images/set1-header.png" /></div>
-              <div class="col-8">
-                <div class="spa-packages-title">CERA WRAŻLIWA I NACZYNKOWA</div>
-                <div class="spa-packages-sub1">
-                  Pielęgnacja - wybierz Poziom Expert!
-                </div>
-                <div class="spa-packages-sub2">
-                  <span>+ PILINK KAWITACYJNY</span>
-                  <span>+ PRĄD GALWANICZNY</span>
-                  <span>+ JONOFOREZA</span>
-                </div>
-                <div class="spa-packages-desc">
-                  Ten, kto ma cerę wrażliwą i naczynkową wie, że cera ta wymaga
-                  specjalnego traktowania, wyjątkowo delikatnych kosmetyków i
-                  idealnie dopasowanego planu pielęgnacji. Nie oznacza to
-                  jednak, że nie można zapewnić jej takich samych efektów
-                  odmładzających, jak innym typom cery. Wystarczy mądrze
-                  połączyć takie metody działania, które jednocześnie będą
-                  skuteczne i na tyle delikatne, by nie zachwiać jej równowagi.
-                  Podatność na podrażnienia i kruchość naczynek to aspekty,
-                  które zostały uwzględnione w działaniu każdego zestawu.
-                  Odmłodź swoją delikatną skórę!
-                </div>
-              </div>
-            </div>
+            
             <button class="on-mobile tospamenu">
-              IDŹ DO MENU <b style="margin-left: 6px">SPA</b
-              ><img src="images/arrow-top.png" />
+              IDŹ DO MENU <b style="margin-left: 6px">SPA</b>
+                <img src="images/arrow-top.png" />
             </button>
             <div id="content_1" class="tabcontent" style="display: block">
+              <div class="spa-packages-header">
+                <div class="col-4"><img src="images/zestaw/cera/opis.png" /></div>
+                <div class="col-8">
+                  <div class="spa-packages-title">CERA WRAŻLIWA I NACZYNKOWA</div>
+                  <div class="spa-packages-sub1">
+                    Pielęgnacja - wybierz Poziom Expert!
+                  </div>
+                  <div class="spa-packages-sub2">
+                    <span>+ PILINK KAWITACYJNY</span>
+                    <span>+ PRĄD GALWANICZNY</span>
+                    <span>+ JONOFOREZA</span>
+                  </div>
+                  <div class="spa-packages-desc">
+                    Ten, kto ma cerę wrażliwą i naczynkową wie, że cera ta wymaga
+                    specjalnego traktowania, wyjątkowo delikatnych kosmetyków i
+                    idealnie dopasowanego planu pielęgnacji. Nie oznacza to
+                    jednak, że nie można zapewnić jej takich samych efektów
+                    odmładzających, jak innym typom cery. Wystarczy mądrze
+                    połączyć takie metody działania, które jednocześnie będą
+                    skuteczne i na tyle delikatne, by nie zachwiać jej równowagi.
+                    Podatność na podrażnienia i kruchość naczynek to aspekty,
+                    które zostały uwzględnione w działaniu każdego zestawu.
+                    Odmłodź swoją delikatną skórę!
+                  </div>
+                </div>
+              </div>
               <div class="spa-packages-main">
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
@@ -350,7 +351,7 @@
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw1.png" /></div>
+                  <div class="img"><img src="images/zestaw/cera/1/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -372,7 +373,7 @@
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw2.png" /></div>
+                  <div class="img"><img src="images/zestaw/cera/2/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -394,7 +395,7 @@
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw1.png" /></div>
+                  <div class="img"><img src="images/zestaw/cera/3/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -416,7 +417,7 @@
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw1.png" /></div>
+                  <div class="img"><img src="images/zestaw/cera/4/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -438,7 +439,7 @@
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw2.png" /></div>
+                  <div class="img"><img src="images/zestaw/cera/5/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -460,7 +461,7 @@
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw1.png" /></div>
+                  <div class="img"><img src="images/zestaw/cera/6/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -482,7 +483,7 @@
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw2.png" /></div>
+                  <div class="img"><img src="images/zestaw/cera/7/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -491,27 +492,43 @@
                   </div>
                 </div>
                 <div class="spa-packages-last">
-                  <img src="images/set1-last-group.png" />
+                  <img src="images/zestaw/cera/last-img.png" />
                 </div>
               </div>
             </div>
             <div id="content_2" class="tabcontent">
+              <div class="spa-packages-header">
+                <div class="col-4"><img src="images/zestaw/oczyszczanie/opis.png" /></div>
+                <div class="col-8">
+                  <div class="spa-packages-title">OCZYSZCZANIE</div>
+                  <div class="spa-packages-sub1">
+                    Zacznijmy od początku! 
+                  </div>
+                  <div class="spa-packages-sub2">
+                    <span>+ PEELING KAWITACYJNY </span>
+                    <span>+ SZCZOTKA SONICZNA </span>
+                    <span>+ MIKRODERMABRAZJA</span>
+                  </div>
+                  <div class="spa-packages-desc">
+                    Dokładność tego podstawowego codziennego rytuału bezpośrednio wpływa na kondycję  skóry. Usuwamy nie tylko makijaż, ale i kurz, bakterie i sebum, wywołujące zmiany trądzikowe. Dokładne oczyszczenie poprawia ukrwienie skóry i zwiększa wchłanialność składników <b>odżywczych, usuwa martwy naskórek i oczyszcza pory</b>, czyniąc ją zdrową i pełną blasku. Sprawdź nasze wyjątkowe propozycje!
+                  </div>
+                </div>
+              </div>
               <div class="spa-packages-main">
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Moc</b> Delikatności /div>
+                    <div class="title"><b>Perfekcyjne </b> Oczyszczanie  </div>
                     <div class="desc">
                       <p>
-                        Czasami mniej znaczy więcej – działając delikatnie, szybciej osiągniesz widoczne efekty odmładzających zabiegów!
-                      </p>
+                        Perfekcyjne oczyszczenie to nie tylko demakijaż                        </p>
                       <p>
                         <b
-                          >Poczuj jego działanie – ciesz się z efektów!</b
+                          >Sprawdź co potrafi Ten Zestaw! </b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw1.png" /></div>
+                  <div class="img"><img src="images/zestaw/oczyszczanie/1/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -521,18 +538,18 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Subtelna </b> Bryza</div>
+                    <div class="title"><b>Wiosenna </b> Świeżość</div>
                     <div class="desc">
                       <p>
-                        Skóra wrażliwa i naczynkowa  potrzebuje -  jak każda inna cera - głębokiego oczyszczenia.
+                        Wiosenna świeżość? Tak, i to każdego dnia!                       
                       </p>
                       <p>
-                        <b>Zrób to subtelnie, ale skutecznie!</b>
+                        <b>Oczyść swoją skórę i ciesz się nią „na okrągło”.</b>
                         
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw2.png" /></div>
+                  <div class="img"><img src="images/zestaw/oczyszczanie/2/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -542,20 +559,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Letnie </b> Orzeźwienie</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Zatrzymaj letnie orzeźwienie na dłużej! Zestaw będzie oczyszczał Twoją skórę i codziennie o nią dbał.
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Kochamy takie rozwiązania!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw1.png" /></div>
+                  <div class="img"><img src="images/zestaw/oczyszczanie/3/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -565,20 +581,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Krystaliczna</b> Siła</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Twoja skóra będzie czysta jak kryształ! Pomóż jej odkryć swoją siłę.
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Oto nasz zestaw do zadań specjalnych!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw2.png" /></div>
+                  <div class="img"><img src="images/zestaw/oczyszczanie/4/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -588,20 +603,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Lśniąca </b> Cera </div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Promienna, młoda i lśniąca cera – spełniaj swoje marzenia!
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Teraz nic Cię nie zatrzyma!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw1.png" /></div>
+                  <div class="img"><img src="images/zestaw/oczyszczanie/5/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -611,20 +625,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Naturalne </b> Piękno</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Odkryj w swojej skórze naturalne piękno i zachwycaj, jak nigdy przedtem!
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Przekonaj się, jak działać kompleksowo!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw2.png" /></div>
+                  <div class="img"><img src="images/zestaw/oczyszczanie/6/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -634,20 +647,63 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Oceaniczna </b> Bryza</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Oceaniczna bryza to moc głębokiego oczyszczenia. 
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Zobacz, które produkty są w tym najlepsze!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw1.png" /></div>
+                  <div class="img"><img src="images/zestaw/oczyszczanie/7/Canvas.png" /></div>
+                  <div class="link">
+                    <a href="#"
+                      ><b>Dowiedz się więcej</b>
+                      <img width="9" src="images/chevron-r-dark.png"
+                    /></a>
+                  </div>
+                </div>
+                <div class="spa-packages-el">
+                  <div class="spa-packages-el-text">
+                    <div class="title"><b>Moc  </b> Detoksykacji </div>
+                    <div class="desc">
+                      <p>
+                        Pozbądź się wszelkich zanieczyszczeń, niech Twoja czysta skóra złapie głęboki oddech!
+                      </p>
+                      <p>
+                        <b
+                          >Wybierz najlepsze rozwiązanie!</b
+                        >
+                      </p>
+                    </div>
+                  </div>
+                  <div class="img"><img src="images/zestaw/oczyszczanie/8/Canvas.png" /></div>
+                  <div class="link">
+                    <a href="#"
+                      ><b>Dowiedz się więcej</b>
+                      <img width="9" src="images/chevron-r-dark.png"
+                    /></a>
+                  </div>
+                </div>
+                <div class="spa-packages-el">
+                  <div class="spa-packages-el-text">
+                    <div class="title"><b>Czysta</b> Energia </div>
+                    <div class="desc">
+                      <p>
+                        Tylko dokładnie oczyszczona skóra ma w sobie pozytywną energię.  
+                      </p>
+                      <p>
+                        <b
+                          >Zafunduj swojej skórze codzienną jej porcję!</b
+                        >
+                      </p>
+                    </div>
+                  </div>
+                  <div class="img"><img src="images/zestaw/oczyszczanie/9/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -656,28 +712,42 @@
                   </div>
                 </div>
                 <div class="spa-packages-last">
-                  <img src="images/set1-last-group.png" />
+                  <img src="images/zestaw/oczyszczanie/last-img.png" />
                 </div>
               </div>
             </div>
             <div id="content_3" class="tabcontent">
+              <div class="spa-packages-header">
+                <div class="col-4"><img src="images/zestaw/zmarszczki/opis.png" /></div>
+                <div class="col-8">
+                  <div class="spa-packages-title">REDUKCJA ZMARSZCZEK</div>
+                  <div class="spa-packages-sub1">
+                    Wybieramy zabiegi przeciwzmarszczkowe! 
+                  </div>
+                  <div class="spa-packages-sub2">
+                    <span>+ FALE RADIOWE</span>
+                    <span>+ MEZOTERAPIA MIKROIGŁOWA</span>
+                    <span>+ ULTRADŹWIĘKI</span>
+                  </div>
+                  <div class="spa-packages-desc">
+                    Zmarszczki to jedne z pierwszych oznak starzenia się skóry, powstałe w wyniku zwiotczenia jej kolagenowych i elastynowych włókien. Zmarszczki mimiczne, grawitacyjne, czy te będące objawem fotostarzenia i przesuszenia. Wszystkie zmarszczki wymagają radykalnych terapii łączących <b>odbudowę skóry, intensywne nawilżenie, wygładzenie i wypełnienie zmarszczek</b> od wewnątrz. Poznaj wszystkie terapie przeciwzmarszczkowe OhbyMO!                  </div>
+                </div>
+              </div>
               <div class="spa-packages-main">
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Kuracja</b> Anti-Aging</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
-                      </p>
+                        Kuracja Anti-Aging to szerokie działanie przeciwstarzeniowe bądź spokojna..                        </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Ta kuracja upora się z Twoimi zmarszczkami!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw2.png" /></div>
+                  <div class="img"><img src="images/zestaw/zmarszczki/1/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -687,20 +757,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Ultra-Szybkie</b> Wygładzenie </div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Jesteśmy niecierpliwi i efekty, zwykle chcemy widzieć jak najszybciej!
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Powstał więc zestaw, który przyspiesza redukcję zmarszczek!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw1.png" /></div>
+                  <div class="img"><img src="images/zestaw/zmarszczki/2/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -710,20 +779,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Żelazko</b> na Zmarszczki</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Gdyby tak móc wygładzić zmarszczki na skórze, niczym te na prasowanym obrusie? 
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Z tym zestawem, możesz tego spróbować!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw2.png" /></div>
+                  <div class="img"><img src="images/zestaw/zmarszczki/3/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -733,20 +801,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Domowa</b> Odnowa</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Domowe zabiegi SPA to nowy trend – dołącz do niego i przekonaj się jakie to przyjemne!
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Przenieś SPA do swojego domu!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw1.png" /></div>
+                  <div class="img"><img src="images/zestaw/zmarszczki/4/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -756,20 +823,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Pożegnaj</b> Zmarszczki!</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Zmarszczki.. nie wiesz jak sobie z nimi poradzić? Pożegnaj je z naszym zestawem do zadań specjalnych!
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          > Zapomnij o zmarszczkach - czas na gładką skórę!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw2.png" /></div>
+                  <div class="img"><img src="images/zestaw/zmarszczki/5/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -779,20 +845,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Ekspresowe</b> Odmłodzenie</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Ten zestaw nie każe długo czekać na efekty odmłodzenia. Daj się zaskoczyć tym wszystkim, co potrafi!
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Wybierz szybkość w działaniu!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw2.png" /></div>
+                  <div class="img"><img src="images/zestaw/zmarszczki/6/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -802,20 +867,63 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Terapia</b> Przeciwzmarszczkowa </div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Na zmarszczki trzeba mieć zaplanowaną terapię. Ta… jest perfekcyjna!
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Wybierz nowoczesne rozwiązanie!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw1.png" /></div>
+                  <div class="img"><img src="images/zestaw/zmarszczki/7/Canvas.png" /></div>
+                  <div class="link">
+                    <a href="#"
+                      ><b>Dowiedz się więcej</b>
+                      <img width="9" src="images/chevron-r-dark.png"
+                    /></a>
+                  </div>
+                </div>
+                <div class="spa-packages-el">
+                  <div class="spa-packages-el-text">
+                    <div class="title"><b>Młodsza</b> Ja</div>
+                    <div class="desc">
+                      <p>
+                        Poświęć sobie czas, bądź dla siebie ważna, z niczego nie rezygnuj. To Twój czas i Młodsza Ja.
+                      </p>
+                      <p>
+                        <b
+                          >Wybierz holistyczne podejście!</b
+                        >
+                      </p>
+                    </div>
+                  </div>
+                  <div class="img"><img src="images/zestaw/zmarszczki/8/Canvas.png" /></div>
+                  <div class="link">
+                    <a href="#"
+                      ><b>Dowiedz się więcej</b>
+                      <img width="9" src="images/chevron-r-dark.png"
+                    /></a>
+                  </div>
+                </div>
+                <div class="spa-packages-el">
+                  <div class="spa-packages-el-text">
+                    <div class="title"><b>Nowa</b> Gładka Cera</div>
+                    <div class="desc">
+                      <p>
+                        Myśląc o gładkiej cerze wiedz, że możesz ją mieć. Wystarczy zestaw, o potrójnej mocy działania!
+                      </p>
+                      <p>
+                        <b
+                          >Trzy kierunki, to jeszcze lepsze efekty!</b
+                        >
+                      </p>
+                    </div>
+                  </div>
+                  <div class="img"><img src="images/zestaw/zmarszczki/9/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -824,28 +932,43 @@
                   </div>
                 </div>
                 <div class="spa-packages-last">
-                  <img src="images/set1-last-group.png" />
+                  <img src="images/zestaw/zmarszczki/last-img.png" />
                 </div>
               </div>
             </div>
             <div id="content_4" class="tabcontent">
+              <div class="spa-packages-header">
+                <div class="col-4"><img src="images/zestaw/lifting/opis.png" /></div>
+                <div class="col-8">
+                  <div class="spa-packages-title">LIFTING SKÓRY</div>
+                  <div class="spa-packages-sub1">
+                    Czas na ujędrnienie! 
+                  </div>
+                  <div class="spa-packages-sub2">
+                    <span>+ PRĄD GALWANICZNY</span>
+                    <span>+ FALE RADIOWE</span>
+                    <span>+ TERAPIA ŚWIATŁEM </span>
+                  </div>
+                  <div class="spa-packages-desc">
+                    Skóra starzeje się już od 25 roku życia, tracąc w każdym roku 1% kolagenu. Stopniowo staje się ona wiotka, opadające policzki zmieniają owal i twarz nabiera smutnego wyrazu. Kluczowe jest więc stymulowanie fibroblastów, gdyż to one wytwarzają białka budujące włókna kolagenowe, oraz <b>stałe uzupełnianie niedoboru kolagenu.</b> Ujędrnij swoją skórę, tworząc dla niej solidne "rusztowanie", przywróć sprężystość skóry korzystając z kuracji, bez wychodzenia z domu!                </div>
+              </div>
+              </div>
               <div class="spa-packages-main">
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Domowy</b> Lifting</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Domowe zacisze to idealne miejsce na liftingujące rytuały. 
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Wygodnie, w swoim własnym salonie kosmetycznym!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw2.png" /></div>
+                  <div class="img"><img src="images/zestaw/lifting/1/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -855,20 +978,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Lifting</b> bez Skalpela</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Lifting bez skalpela i bez wychodzenia z domu? Podaruj sobie ten luksus.
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Poczuj komfort i niezależność!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw1.png" /></div>
+                  <div class="img"><img src="images/zestaw/lifting/2/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -878,20 +1000,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Radykalny</b> Lifting</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Potrzebujesz sprawdzonych metod? Radykalny lifting skóry, tylko z naszym zestawem.
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Zobacz, co będzie Ci potrzebne!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw2.png" /></div>
+                  <div class="img"><img src="images/zestaw/lifting/3/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -901,20 +1022,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Nowa</b> Ja</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Pokaż światu swoje nowe oblicze! Wyglądaj z każdym dniem młodziej.
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Nowy zestaw – Nowe możliwości!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw1.png" /></div>
+                  <div class="img"><img src="images/zestaw/lifting/4/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -924,20 +1044,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Jędrna</b> Cera</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Mając jędrną skórę, nie wiesz, czym jest smutny wyraz twarzy. 
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Przywróć swojej twarzy radosny, młodszy wygląd!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw2.png" /></div>
+                  <div class="img"><img src="images/zestaw/lifting/5/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -947,20 +1066,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Odmładzająca</b> Siła</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Rok, dwa, a może 5 lat młodziej? Weź sprawy w swoje ręce i poczuj odmładzającą siłę!
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Sprawdź, co kryje się w zestawie!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw1.png" /></div>
+                  <div class="img"><img src="images/zestaw/lifting/6/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -970,20 +1088,63 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Silne</b> Ujędrnienie</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Zadanie tej terapii to przywrócenie skórze sprężystości. Nie czekaj – działaj!
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Czuj się pięknie w swojej skórze!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw2.png" /></div>
+                  <div class="img"><img src="images/zestaw/lifting/7/Canvas.png" /></div>
+                  <div class="link">
+                    <a href="#"
+                      ><b>Dowiedz się więcej</b>
+                      <img width="9" src="images/chevron-r-dark.png"
+                    /></a>
+                  </div>
+                </div>
+                <div class="spa-packages-el">
+                  <div class="spa-packages-el-text">
+                    <div class="title"><b>Perfekcyjny</b> Owal Twarzy</div>
+                    <div class="desc">
+                      <p>
+                        Chcesz pozbyć się wiotkiej skóry na policzkach i wokół ust?
+                      </p>
+                      <p>
+                        <b
+                          > Przywróć owal swojej twarzy i wyglądaj perfekcyjnie!</b
+                        >
+                      </p>
+                    </div>
+                  </div>
+                  <div class="img"><img src="images/zestaw/lifting/8/Canvas.png" /></div>
+                  <div class="link">
+                    <a href="#"
+                      ><b>Dowiedz się więcej</b>
+                      <img width="9" src="images/chevron-r-dark.png"
+                    /></a>
+                  </div>
+                </div>
+                <div class="spa-packages-el">
+                  <div class="spa-packages-el-text">
+                    <div class="title"><b>Kuracja</b> Ujędrniająca</div>
+                    <div class="desc">
+                      <p>
+                        Kuracja ujędrniająca na wyciągnięcie ręki, a wraz z nią efekty – bądź pewna, zobaczysz je bardzo szybko.
+                      </p>
+                      <p>
+                        <b
+                          >Z naszym zestawem, to proste!</b
+                        >
+                      </p>
+                    </div>
+                  </div>
+                  <div class="img"><img src="images/zestaw/lifting/9/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -992,28 +1153,43 @@
                   </div>
                 </div>
                 <div class="spa-packages-last">
-                  <img src="images/set1-last-group.png" />
+                  <img src="images/zestaw/lifting/last-img.png" />
                 </div>
               </div>
             </div>
             <div id="content_5" class="tabcontent">
+              <div class="spa-packages-header">
+                <div class="col-4"><img src="images/zestaw/przebarwienia/opis.png" /></div>
+                <div class="col-8">
+                  <div class="spa-packages-title">REDUKCJA PRZEBARWIEŃ</div>
+                  <div class="spa-packages-sub1">
+                    Mamy na nie sposób!   
+                  </div>
+                  <div class="spa-packages-sub2">
+                    <span>+ MIKRODERMABRAZJA</span>
+                    <span>+ PEELING KAWITACYJNY</span>
+                    <span>+ JONOFOREZA</span>
+                  </div>
+                  <div class="spa-packages-desc">
+                    Przebarwienia są kłopotliwe i często trudno zamaskować je makijażem. Ciemne plamki powstające na skórze to efekt zmian hormonalnych (ciąża, antykoncepcja), stanów zapalnych (trądzik, łuszczyca), nadmiernej ekspozycji na działanie słońca lub podłoże genetyczne. Najskuteczniejszym rozwiązaniem jest połączenie profilaktyki przebarwieniowej z <b>zabiegami rozjaśniającymi, depigmentującymi </b>i poprawą kondycji skóry. Tak opracowana pielęgnacja ujednolica koloryt skóry, odmładza wygląd i chroni przed pojawieniem się nowych przebarwień.                 </div>
+              </div>
+              </div>
               <div class="spa-packages-main">
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Wyzwanie</b>- Rozjaśnianie</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Nie poddawaj się! Razem z nami podejmij wyzwanie i ciesz się w końcu jasną cerą bez plam.
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Rozjaśnianie – 1..2..3.. zaczynamy!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw1.png" /></div>
+                  <div class="img"><img src="images/zestaw/przebarwienia/1/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1023,20 +1199,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Pożegnaj</b> Przebarwienia! </div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Czas pożegnać przebarwienia raz na zawsze – wybierz działanie i profilaktykę w jednym!
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Przygotuj się, na efekt WOW!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw2.png" /></div>
+                  <div class="img"><img src="images/zestaw/przebarwienia/2/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1046,20 +1221,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Cera</b> bez Skazy</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Wyobraź sobie swoja cerę bez skazy, bez wszystkich plamek i przebarwień. 
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Teraz spełnij swoje marzenie!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw1.png" /></div>
+                  <div class="img"><img src="images/zestaw/przebarwienia/3/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1069,20 +1243,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Świetlista</b> Przemiana</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Twoja cera będzie lśnić! Przejdziesz przemianę a jej efekty zaskoczą wszystkich.
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Przygotuj się, na efekt WOW!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw2.png" /></div>
+                  <div class="img"><img src="images/zestaw/przebarwienia/4/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1092,20 +1265,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Moc</b> Depigmentacji</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Profesjonalne podejście liczy się wszędzie tam, gdzie oczekujesz efektów, także i tutaj. 
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Zobacz moc zabiegu depigmentacji!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw1.png" /></div>
+                  <div class="img"><img src="images/zestaw/przebarwienia/5/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1115,20 +1287,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Piękna</b> Cera</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Piękna cera - i Ty możesz ją mieć! Bez maskowania przebarwień korektorem, bez codziennego stresu i kłopotu.
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Uwolnij się od przebarwień!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw2.png" /></div>
+                  <div class="img"><img src="images/zestaw/przebarwienia/6/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1138,20 +1309,63 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Ekspresowe</b> Rozświetlenie</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Rozświetlenie skóry to ekspresowy efekt odmłodzenia.
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Wybierz młodszy wygląd, radosne spojrzenie i promienny #efektGLAM!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw1.png" /></div>
+                  <div class="img"><img src="images/zestaw/przebarwienia/7/Canvas.png" /></div>
+                  <div class="link">
+                    <a href="#"
+                      ><b>Dowiedz się więcej</b>
+                      <img width="9" src="images/chevron-r-dark.png"
+                    /></a>
+                  </div>
+                </div>
+                <div class="spa-packages-el">
+                  <div class="spa-packages-el-text">
+                    <div class="title"><b>Harmonia</b> Kolorytu</div>
+                    <div class="desc">
+                      <p>
+                        Zrównoważ koloryt skóry, ujednolić go i osiągnij harmonię. Bądź zrelaksowana, poczuj komfort i odprężenie!
+                      </p>
+                      <p>
+                        <b
+                          >Twoja chwila w SPA już czeka!</b
+                        >
+                      </p>
+                    </div>
+                  </div>
+                  <div class="img"><img src="images/zestaw/przebarwienia/8/Canvas.png" /></div>
+                  <div class="link">
+                    <a href="#"
+                      ><b>Dowiedz się więcej</b>
+                      <img width="9" src="images/chevron-r-dark.png"
+                    /></a>
+                  </div>
+                </div>
+                <div class="spa-packages-el">
+                  <div class="spa-packages-el-text">
+                    <div class="title"><b>Ton</b> w Ton</div>
+                    <div class="desc">
+                      <p>
+                        Nikt nie pozna, że kiedyś  borykałaś się z przebarwieniami. Wybierz zestaw Ton w Ton i zapomnij o przebarwieniach!
+                      </p>
+                      <p>
+                        <b
+                          >Przebarwienia i plamki to już przeszłość!</b
+                        >
+                      </p>
+                    </div>
+                  </div>
+                  <div class="img"><img src="images/zestaw/przebarwienia/9/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1160,28 +1374,43 @@
                   </div>
                 </div>
                 <div class="spa-packages-last">
-                  <img src="images/set1-last-group.png" />
+                  <img src="images/zestaw/przebarwienia/last-img.png" />
                 </div>
               </div>
-            </div>
+            </div>          
             <div id="content_6" class="tabcontent">
+              <div class="spa-packages-header">
+                <div class="col-4"><img src="images/zestaw/oczy/opis.png" /></div>
+                <div class="col-8">
+                  <div class="spa-packages-title">PIELĘGNACJA OKOLIC OCZU</div>
+                  <div class="spa-packages-sub1">
+                    Zadziałaj kompleksowo! 
+                  </div>
+                  <div class="spa-packages-sub2">
+                    <span>+ KRIOTERAPIA</span>
+                    <span>+ WIBROMASAŻ</span>
+                    <span>+ PRĄD GALWANICZNY</span>
+                  </div>
+                  <div class="spa-packages-desc">
+                    Skóra wokół oczu jest najdelikatniejsza, najcieńsza i prawie w całości pozbawiona gruczołów łojowych. Ta partia twarzy jako pierwsza zdradza nasze niewyspanie, zmęczenie, złą dietę, stres, <b>a pod postacią zmarszczek – starzenie się skóry.</b> Bogata mimika wpływa na pojawienie się zmarszczek mimicznych – tzw. „kurzych łapek”, a słabe włókna kolagenu i elastyny  - na szybką utratę jędrności skóry. Wszystkie stworzone Zestawy odpowiadają na potrzeby skóry okolic oczu redukuję zmarszczki, niwelują cienie czy usuwają obrzęki – przekonaj się sama                </div>
+              </div>
+              </div>
               <div class="spa-packages-main">
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Niebiański</b> Poranek</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Poranek bez cieni pod oczami, bez opuchniętych powiek i zmarszczek.
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >To niebiański plan na  poranek, każdego dnia!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw2.png" /></div>
+                  <div class="img"><img src="images/zestaw/oczy/1/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1191,20 +1420,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Magnetyczny</b> Look</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Magnetyczne spojrzenie, kobiecy i naturalny Look – odkryj w sobie przyciągające piękno!
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Maksymalny efekt w najkrótszym czasie!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw1.png" /></div>
+                  <div class="img"><img src="images/zestaw/oczy/2/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1214,20 +1442,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>#</b> Welness</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Podaruj sobie zabiegi prosto z luksusowego SPA – bądź zrelaksowana, szczęśliwa i wyglądaj jeszcze piękniej!
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Strefa Welness czeka na Ciebie!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw2.png" /></div>
+                  <div class="img"><img src="images/zestaw/oczy/3/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1237,20 +1464,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Olśniewające</b> Spojrzenie</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Olśnij gładką skórą, promienną i jasną. Niech Twoje spojrzenie wszystkich oczaruje!
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Teraz jest Twój czas!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw1.png" /></div>
+                  <div class="img"><img src="images/zestaw/oczy/4/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1260,20 +1486,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Chwila</b> Odprężenia</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Podaruj sobie chwilę odprężenia w pędzącym rytmie dnia. 
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Mamy dla Ciebie zestaw, który zapewni odmłodzenie w czasie relaksu! </b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw2.png" /></div>
+                  <div class="img"><img src="images/zestaw/oczy/5/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1283,20 +1508,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Rajskie</b> Przebudzenie</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Spraw, aby o poranku Twoja skóra przebudziła się na nowo. Złap energię do działania na cały dzień!
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Poczuj się wyjątkowo!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw1.png" /></div>
+                  <div class="img"><img src="images/zestaw/oczy/6/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1306,20 +1530,63 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Codziennie</b> Młodziej</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Mając swój zestaw możesz korzystać z niego, kiedy tylko masz na to ochotę.
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Codziennie wyglądaj młodziej i coraz piękniej!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw2.png" /></div>
+                  <div class="img"><img src="images/zestaw/oczy/7/Canvas.png" /></div>
+                  <div class="link">
+                    <a href="#"
+                      ><b>Dowiedz się więcej</b>
+                      <img width="9" src="images/chevron-r-dark.png"
+                    /></a>
+                  </div>
+                </div>
+                <div class="spa-packages-el">
+                  <div class="spa-packages-el-text">
+                    <div class="title"><b>Przyciągające</b> Spojrzenie</div>
+                    <div class="desc">
+                      <p>
+                        Niech Twoje oczy przyciągają spojrzenia! Wyglądaj zjawiskowo…
+                      </p>
+                      <p>
+                        <b
+                          >…gdziekolwiek się pojawisz!</b
+                        >
+                      </p>
+                    </div>
+                  </div>
+                  <div class="img"><img src="images/zestaw/oczy/8/Canvas.png" /></div>
+                  <div class="link">
+                    <a href="#"
+                      ><b>Dowiedz się więcej</b>
+                      <img width="9" src="images/chevron-r-dark.png"
+                    /></a>
+                  </div>
+                </div>
+                <div class="spa-packages-el">
+                  <div class="spa-packages-el-text">
+                    <div class="title"><b>Radość</b> & Energia</div>
+                    <div class="desc">
+                      <p>
+                        Wesołe figlarne spojrzenie, pełne radości i energii. Pozytywnie rozpoczynaj każdy dzień!
+                      </p>
+                      <p>
+                        <b
+                          >Nasz zestaw tylko Ci w tym pomoże!</b
+                        >
+                      </p>
+                    </div>
+                  </div>
+                  <div class="img"><img src="images/zestaw/oczy/9/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1328,28 +1595,44 @@
                   </div>
                 </div>
                 <div class="spa-packages-last">
-                  <img src="images/set1-last-group.png" />
+                  <img src="images/zestaw/oczy/last-img.png" />
                 </div>
               </div>
             </div>
             <div id="content_7" class="tabcontent">
+              <div class="spa-packages-header">
+                <div class="col-4"><img src="images/zestaw/sylwetka/opis.png" /></div>
+                <div class="col-8">
+                  <div class="spa-packages-title">MODELOWANIE SYLWETKI</div>
+                  <div class="spa-packages-sub1">
+                    Nie czekaj – działaj! 
+                  </div>
+                  <div class="spa-packages-sub2">
+                    <span>+ MASAŻ PRÓŻNIOWY</span>
+                    <span>+ MIKROPRĄDY</span>
+                    <span>+ ROLLER</span>
+                  </div>
+                  <div class="spa-packages-desc">
+                    Zmiana sylwetki i pozbycie się cellulitu zawsze wymaga od nas wielokierunkowego działania. <b>Poprawiamy nawyki żywieniowe</b>, wprowadzamy więcej aktywności fizycznej i pamiętamy, o nawadnianiu organizmu. Są jednak takie partie ciała, na których występuje miejscowa tkanka tłuszczowa np. na podbródku, kolanach, rękach czy brzuchu. Są miejsca, w których oporny zbity cellulit nie „daje za wygraną”, a spowolniony metabolizm utrudnia całą misję. Połącz siłę zabiegów rozbijających tkankę tłuszczową z kosmetykami przyśpieszającymi jej spalanie, i suplementami, które <b>naturalnie pobudzą ospały metabolizm!</b>
+                  </div>
+              </div>
+              </div>
               <div class="spa-packages-main">
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Figura</b> 4YOU</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Nowa figura, zgrabna sylwetka, piękne ciało – to wszystko Dla Ciebie! 
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Zobacz co przygotowaliśmy!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw1.png" /></div>
+                  <div class="img"><img src="images/zestaw/sylwetka/1/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1359,20 +1642,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Moja</b> Metamorfoza</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Metamorfoza będzie spektakularna, będzie zaskakująca, będzie Twoja. To idealny moment by ją rozpocząć.
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Poczuj radość z efektów!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw2.png" /></div>
+                  <div class="img"><img src="images/zestaw/sylwetka/2/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1382,20 +1664,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Ultra</b> Ujędrnienie</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Skóra potrzebuje ujędrnienia! Jędrna skóra to zdrowy młody wygląd.
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          > Dlatego przygotowaliśmy dla Ciebie zestaw Ultra.</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw1.png" /></div>
+                  <div class="img"><img src="images/zestaw/sylwetka/3/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1405,20 +1686,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Terapia</b> Anty-Cellulitowa</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Cellulit bywa zbity, oporny i nie dający za wygraną… Ale mamy sposób i na taki! 
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Działanie tego zestawu, mile Cię zaskoczy!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw2.png" /></div>
+                  <div class="img"><img src="images/zestaw/sylwetka/4/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1428,20 +1708,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Body</b> Misja</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Determinacja, motywacja i energia w działaniu! Z nami Ci się uda!
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Body Misja – przyłącz się do akcji!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw1.png" /></div>
+                  <div class="img"><img src="images/zestaw/sylwetka/5/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1451,20 +1730,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Bye, Bye!</b> Cellulite!</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Przekonaj się sama, jakie to uczucie mówić: „Bye,Bye! Cellulite!”. 
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Ten zestaw to najprostsza do tego droga!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw2.png" /></div>
+                  <div class="img"><img src="images/zestaw/sylwetka/6/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1474,20 +1752,63 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Zgrabna</b> Sylwetka</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Zgrabna sylwetka to nie tylko marzenie. To marzenie i plan, który możesz zrealizować! 
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Mamy dla Ciebie zestaw, który tylko Ci w tym pomoże!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw1.png" /></div>
+                  <div class="img"><img src="images/zestaw/sylwetka/7/Canvas.png" /></div>
+                  <div class="link">
+                    <a href="#"
+                      ><b>Dowiedz się więcej</b>
+                      <img width="9" src="images/chevron-r-dark.png"
+                    /></a>
+                  </div>
+                </div>
+                <div class="spa-packages-el">
+                  <div class="spa-packages-el-text">
+                    <div class="title"><b>Waga</b> w Dół!</div>
+                    <div class="desc">
+                      <p>
+                        Gdy waga leci w dół, cieszymy się najbardziej! Zrób to skutecznie i naturalnie, w zgodzie ze swoim ciałem.
+                      </p>
+                      <p>
+                        <b
+                          >Oto Twoi sprzymierzeńcy!</b
+                        >
+                      </p>
+                    </div>
+                  </div>
+                  <div class="img"><img src="images/zestaw/sylwetka/8/Canvas.png" /></div>
+                  <div class="link">
+                    <a href="#"
+                      ><b>Dowiedz się więcej</b>
+                      <img width="9" src="images/chevron-r-dark.png"
+                    /></a>
+                  </div>
+                </div>
+                <div class="spa-packages-el">
+                  <div class="spa-packages-el-text">
+                    <div class="title"><b>Szybki</b> Metabolizm</div>
+                    <div class="desc">
+                      <p>
+                        Metabolizm – trzeba go obudzić! Naturalny sprawdzony sposób czeka już na Ciebie.
+                      </p>
+                      <p>
+                        <b
+                          >Pozwól swojemu ciału, na wielka przemianę!</b
+                        >
+                      </p>
+                    </div>
+                  </div>
+                  <div class="img"><img src="images/zestaw/sylwetka/9/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1496,28 +1817,44 @@
                   </div>
                 </div>
                 <div class="spa-packages-last">
-                  <img src="images/set1-last-group.png" />
+                  <img src="images/zestaw/sylwetka/last-img.png" />
                 </div>
               </div>
             </div>
             <div id="content_8" class="tabcontent">
+              <div class="spa-packages-header">
+                <div class="col-4"><img src="images/zestaw/skora/opis.png" /></div>
+                <div class="col-8">
+                  <div class="spa-packages-title">CERA TŁUSTA I TRĄDZIKOWA</div>
+                  <div class="spa-packages-sub1">
+                    Mamy sprawdzone rozwiązania! 
+                  </div>
+                  <div class="spa-packages-sub2">
+                    <span>+ OCZYSZCZANIE PRÓŻNIOWE</span>
+                    <span>+ PEELING KAWITACYJNY</span>
+                    <span>+ PRAD D’ARSONVALA</span>
+                  </div>
+                  <div class="spa-packages-desc">
+                    Błyszczenie się skóry to pierwszy znak, że nasza skóra jest tłusta. Przy cerze trądzikowej do nadmiernego wydzielania sebum dochodzą jeszcze niedoskonałości takie jak zaskórniki i wągry, oraz stany zapalne. <b>Cera tłusta często staje się skóra trądzikową</b>, a błędy pielęgnacyjne mogą tylko pogorszyć jej stan. Pomyśleliśmy o wszystkim – o działaniu antybakteryjnym, antyspetycznym, o nawilżeniu, efekcie matującym, oczyszczeniu porów, usunięciu krost i zaskórników, a także regulacji funkcjonowania skóry „od wewnątrz”!                
+                  </div>
+                </div>
+              </div>
               <div class="spa-packages-main">
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Diamentowy</b> Pył</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Diamentowe kryształki oczyszczą Twoją skórę, a Ty narszcie  poczujesz się komfortowo. 
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Nie czekaj – działaj!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw2.png" /></div>
+                  <div class="img"><img src="images/zestaw/skora/1/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1527,20 +1864,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Efekt</b> Mat</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Efekt mat przez cały dzień? Ten zestaw Cię nie zawiedzie. 
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Zero błyszczenia przez cały dzień!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw1.png" /></div>
+                  <div class="img"><img src="images/zestaw/skora/2/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1550,20 +1886,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Pokonaj</b> Trądzik!</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Wiemy jak z nim walczyć. Z tym zestawem trądzik nie ma najmniejszych szans!
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Uwolnij swoją skórę!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw2.png" /></div>
+                  <div class="img"><img src="images/zestaw/skora/3/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1573,20 +1908,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>BEZproblemowa</b> Cera</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Cera z problemami takimi jak stany zapalne i trądzik potrzebuje ratunku. 
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Wybierz zestaw, który przychodzi z pomocą!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw1.png" /></div>
+                  <div class="img"><img src="images/zestaw/skora/4/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1596,20 +1930,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Fala</b> Nawilżenia</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Cera tłusta i trądzikowa szczególnie potrzebuje intensywnego nawilżenia – podaruj jej go jak najwięcej!
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Ten zestaw Cię nie zawiedzie!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw2.png" /></div>
+                  <div class="img"><img src="images/zestaw/skora/5/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1619,20 +1952,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Równowaga</b> & Balans</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Osiągnij równowagę. Balans dopasowanych zabiegów, kosmetyków i suplementacji. 
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Spotęguje efekt zdrowej = pięknej skóry!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw1.png" /></div>
+                  <div class="img"><img src="images/zestaw/skora/6/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1642,20 +1974,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Poziom</b> Expert</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Wybierz profesjonalne podejście, rozwiązujące wszystkie problemy Twojej cery.
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          > Czas wejść, na wyższy poziom! </b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw2.png" /></div>
+                  <div class="img"><img src="images/zestaw/skora/7/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1664,28 +1995,43 @@
                   </div>
                 </div>
                 <div class="spa-packages-last">
-                  <img src="images/set1-last-group.png" />
+                  <img src="images/zestaw/skora/last-img.png" />
                 </div>
               </div>
             </div>
             <div id="content_9" class="tabcontent">
+              <div class="spa-packages-header">
+                <div class="col-4"><img src="images/zestaw/wlosy/opis.png" /></div>
+                <div class="col-8">
+                  <div class="spa-packages-title">WZMOCNIENIE WŁOSÓW</div>
+                  <div class="spa-packages-sub1">
+                    Te zabiegi, mile Cię zaskoczą!
+                  </div>
+                  <div class="spa-packages-sub2">
+                    <span>+ PRĄD D’ARSONVALA</span>
+                    <span>+ ZAGĘSZCZENIE WŁOSÓW</span>
+                    <span>+ LECZENIE SKÓRY GŁOWY</span>
+                  </div>
+                  <div class="spa-packages-desc">
+                    Profesjonalna pielęgnacja włosów staje przed wieloma wyzwaniami. Jedne z nas potrzebują odbudowy włosów zniszczonych farbowaniem, rozjaśnianiem czy prostowaniem. Włosy potrzebują wtedy nawilżenia - by przestały się puszyć, wzmocnienia – by przestały się łamać, i naprawy – po wszelkich uszkodzeniach. Kolejne poszukują kuracji stymulujących <b>porost włosów i zagęszczenia</b>, a jeszcze inne - poprawy stanu skóry głowy dotkniętej łupieżem i stanami zapalnymi. Opracowane Zestawy troszczą się o skórę głowy i włosy – od cebulek, aż po same końce!                </div>
+              </div>
+              </div>
               <div class="spa-packages-main">
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Hydro</b> Balans</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Nawilżenie to podstawa! Napełnij swoje włosy koktajlem nawilżających składników.
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Ten zestaw zadba o wszystko!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw1.png" /></div>
+                  <div class="img"><img src="images/zestaw/wlosy/1/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1695,20 +2041,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Profesjonalne</b> Zagęszczenie</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Pobudź i odżyw cebulki swoich włosów. Zahamuj ich wypadanie i spraw, by rosły gęste!
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Wybierz profesjonalne rozwiązanie!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw2.png" /></div>
+                  <div class="img"><img src="images/zestaw/wlosy/2/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1718,20 +2063,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Rewitalizacja</b> Rewitalizacja</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Kompleksowa rewitalizacja dla efektu… jak po wyjściu z salonu fryzjerskiego!
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Salonowa pielęgnacja włosów w Twoim domu!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw1.png" /></div>
+                  <div class="img"><img src="images/zestaw/wlosy/3/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1741,20 +2085,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Kuracja</b> Naprawcza</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Włosy są łamliwe, uszkodzone i suche? Zastosuj kurację naprawczą. 
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Efekty przejdą Twoje najśmielsze oczekiwania!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw2.png" /></div>
+                  <div class="img"><img src="images/zestaw/wlosy/4/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1764,20 +2107,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Miękkość</b> & Blask</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Przekonaj się, że za taką pielęgnację, Twoje włosy odwdzięcza się aksamitną miękkością i wyjątkowym blaskiem!
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Jeden zestaw – podwójne korzyści!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw1.png" /></div>
+                  <div class="img"><img src="images/zestaw/wlosy/5/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1787,20 +2129,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Ekspresowa</b> Regeneracja</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Ekspresowa odbudowa zniszczonych włosów? Zaufaj ekspertom!
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Ten zestaw Cię zachwycie!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw2.png" /></div>
+                  <div class="img"><img src="images/zestaw/wlosy/6/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1810,20 +2151,19 @@
                 </div>
                 <div class="spa-packages-el">
                   <div class="spa-packages-el-text">
-                    <div class="title"><b>Wyjątkowe</b> Odmłodzenie</div>
+                    <div class="title"><b>Włosove</b> Love</div>
                     <div class="desc">
                       <p>
-                        Czy można osiągnąć skuteczne odmłodzenie skóry
-                        wrażliwej? Można!
+                        Trzeba dbać o włosy z sercem! Podaruj im zestaw pełen pielęgnacyjnej czułości. 
                       </p>
                       <p>
                         <b
-                          >Wystarczy mądrze połączyć produkty w jeden zestaw.</b
+                          >Wybraliśmy dla Ciebie to, co najlepsze!</b
                         >
                       </p>
                     </div>
                   </div>
-                  <div class="img"><img src="images/zestaw/zestaw1.png" /></div>
+                  <div class="img"><img src="images/zestaw/wlosy/7/Canvas.png" /></div>
                   <div class="link">
                     <a href="#"
                       ><b>Dowiedz się więcej</b>
@@ -1832,7 +2172,7 @@
                   </div>
                 </div>
                 <div class="spa-packages-last">
-                  <img src="images/set1-last-group.png" />
+                  <img src="images/zestaw/wlosy/last-img.png" />
                 </div>
               </div>
             </div>
@@ -1841,55 +2181,6 @@
       </div>
       <div class="banner-right"><img src="images/right_panel1.png" /></div>
     </main>
-    <script>
-      function switchTab(tab_id, tab_content) {
-        // first of all we get all tab content blocks (I think the best way to get them by class names)
-        var x = document.getElementsByClassName("tabcontent");
-        var i;
-        for (i = 0; i < x.length; i++) {
-          x[i].style.display = "none"; // hide all tab content
-        }
-        if (tab_content != null && document.getElementById(tab_content)) {
-          document.getElementById(tab_content).style.display = "block"; // display the content of the tab we need
-        }
-
-        // now we get all tab menu items by class names (use the next code only if you need to highlight current tab)
-        var x = document.getElementsByClassName("tabmenu");
-        var i;
-        for (i = 0; i < x.length; i++) {
-          if (x[i].classList.contains("active")) {
-            //  x[i].classList.remove("active");
-          }
-        }
-        //document.getElementById(tab_id).classList.add("active");
-        var scrollToThis = document.querySelector("#spa-packages");
-        scrollToThis.scrollIntoView((alignToTop = true));
-      }
-      var fromTop = document.querySelector("#spa-packages").offsetTop + 400;
-      var toSpaMenu = document.querySelector(".tospamenu");
-      console.log(fromTop);
-      var doc = document.documentElement;
-      document.addEventListener("scroll", function (e) {
-        e.stopPropagation();
-        var top = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0);
-        console.log(top);
-        if (top > fromTop) {
-          toSpaMenu.classList.add("visible");
-        } else {
-          toSpaMenu.classList.remove("visible");
-        }
-      });
-      var spaMenu = document.querySelector(".spa-menu-list");
-      toSpaMenu.addEventListener("click", function (e) {
-        //e.stopPropagation();
-        /*window.scrollTo({
-            top: spaMenu.offsetTop,
-            //left: 100,
-            behavior: 'smooth'
-        });*/
-        //spaMenu.scrollIntoView();
-        document.scrollingElement.scrollTop = spaMenu.offsetTop + 247;
-      });
-    </script>
+    <script src="index.js"></script>
   </body>
 </html>

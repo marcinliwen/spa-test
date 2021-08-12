@@ -71,7 +71,7 @@
                     zestawu. Odmłodź swoją skórę skutecznie i delikatnie!
                   </div>
                   <div class="spa-element-link">
-                    <a href="javascript:switchTab('tb_1', 'content_1');">
+                    <a data-target="content_1">
                       <b>SPRAWDŹ ZESTAWY</b>
                       <span class="chevron-r">
                         <img width="24px" src="images/chevron-right.png" />
@@ -98,7 +98,7 @@
                     nasze propozycje!
                   </div>
                   <div class="spa-element-link">
-                    <a href="javascript:switchTab('tb_2', 'content_2');">
+                    <a data-target="content_2" >
                       <b>SPRAWDŹ ZESTAWY</b>
                       <span class="chevron-r">
                         <img width="24px" src="images/chevron-right.png" />
@@ -125,7 +125,7 @@
                     przeciwzmarszczkowe OhbyMO!
                   </div>
                   <div class="spa-element-link">
-                    <a href="javascript:switchTab('tb_3', 'content_3');">
+                    <a data-target="content_3" >
                       <b>SPRAWDŹ ZESTAWY</b>
                       <span class="chevron-r">
                         <img width="24px" src="images/chevron-right.png" />
@@ -152,7 +152,7 @@
                     kuracji, bez wychodzenia z domu!
                   </div>
                   <div class="spa-element-link">
-                    <a href="javascript:switchTab('tb_4', 'content_4');">
+                    <a data-target="content_4" >
                       <b>SPRAWDŹ ZESTAWY</b>
                       <span class="chevron-r">
                         <img width="24px" src="images/chevron-right.png" />
@@ -179,7 +179,7 @@
                     nowych przebarwień.
                   </div>
                   <div class="spa-element-link">
-                    <a href="javascript:switchTab('tb_5', 'content_5');">
+                    <a data-target="content_5">
                       <b>SPRAWDŹ ZESTAWY</b>
                       <span class="chevron-r">
                         <img width="24px" src="images/chevron-right.png" />
@@ -206,7 +206,7 @@
                     przekonaj się sama!
                   </div>
                   <div class="spa-element-link">
-                    <a href="javascript:switchTab('tb_6', 'content_6');">
+                    <a data-target="content_6" >
                       <b>SPRAWDŹ ZESTAWY</b>
                       <span class="chevron-r">
                         <img width="24px" src="images/chevron-right.png" />
@@ -233,7 +233,7 @@
                     metabolizmu!
                   </div>
                   <div class="spa-element-link">
-                    <a href="javascript:switchTab('tb_7', 'content_7');">
+                    <a data-target="content_7" >
                       <b>SPRAWDŹ ZESTAWY</b>
                       <span class="chevron-r"
                         ><img
@@ -261,7 +261,7 @@
                     porów i usunięciu zaskórników!
                   </div>
                   <div class="spa-element-link">
-                    <a href="javascript:switchTab('tb_8', 'content_8');">
+                    <a data-target="content_8" >
                       <b>SPRAWDŹ ZESTAWY</b>
                       <span class="chevron-r"
                         ><img
@@ -289,7 +289,7 @@
                     od cebulek, aż po same końce!
                   </div>
                   <div class="spa-element-link">
-                    <a href="javascript:switchTab('tb_9', 'content_9');">
+                    <a data-target="content_9" >
                       <b>SPRAWDŹ ZESTAWY</b>
                       <span class="chevron-r">
                         <img width="24px" src="images/chevron-right.png" />
@@ -305,8 +305,8 @@
           <div class="spa-container">
             
             <button class="on-mobile tospamenu">
-              IDŹ DO MENU <b style="margin-left: 6px">SPA</b
-              ><img src="images/arrow-top.png" />
+              IDŹ DO MENU <b style="margin-left: 6px">SPA</b>
+                <img src="images/arrow-top.png" />
             </button>
             <div id="content_1" class="tabcontent" style="display: block">
               <div class="spa-packages-header">
@@ -2181,48 +2181,6 @@
       </div>
       <div class="banner-right"><img src="images/right_panel1.png" /></div>
     </main>
-    <script>
-      function switchTab(tab_id, tab_content) {
-        // first of all we get all tab content blocks (I think the best way to get them by class names)
-        var x = document.getElementsByClassName("tabcontent");
-        var i;
-        for (i = 0; i < x.length; i++) {
-          x[i].style.display = "none"; // hide all tab content
-        }
-        if (tab_content != null && document.getElementById(tab_content)) {
-          document.getElementById(tab_content).style.display = "block"; // display the content of the tab we need
-        }
-
-        // now we get all tab menu items by class names (use the next code only if you need to highlight current tab)
-        var x = document.getElementsByClassName("tabmenu");
-        var i;
-        for (i = 0; i < x.length; i++) {
-          if (x[i].classList.contains("active")) {
-            //  x[i].classList.remove("active");
-          }
-        }
-        //document.getElementById(tab_id).classList.add("active");
-        var scrollToThis = document.querySelector("#spa-packages");
-        scrollToThis.scrollIntoView((alignToTop = true));
-      }
-      var fromTop = document.querySelector("#spa-packages").offsetTop + 400;
-      var toSpaMenu = document.querySelector(".tospamenu");
-      console.log(fromTop);
-      var doc = document.documentElement;
-      document.addEventListener("scroll", function (e) {
-        e.stopPropagation();
-        var top = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0);
-        console.log(top);
-        if (top > fromTop + 120) {
-          toSpaMenu.classList.add("visible");
-        } else {
-          toSpaMenu.classList.remove("visible");
-        }
-      });
-      var spaMenu = document.querySelector(".spa-menu-list");
-      toSpaMenu.addEventListener("click", function (e) {
-        document.scrollingElement.scrollTop = spaMenu.offsetTop + 247;
-      });
-    </script>
+    <script src="index.js"></script>
   </body>
 </html>
