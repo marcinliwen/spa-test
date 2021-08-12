@@ -9,7 +9,8 @@ window.addEventListener("load", function () {
       document.getElementById(tab_content).style.display = "block";
     }
     var scrollToThis = document.querySelector("#spa-packages");
-    scrollToThis.scrollIntoView((alignToTop = true));
+    //scrollToThis.scrollIntoView((alignToTop = true));
+    scrollToThis.scrollIntoView({ behavior: 'smooth' });
   }
   var fromTop = document.querySelector("#spa-packages").offsetTop + 400;
   var toSpaMenu = document.querySelector(".tospamenu");
@@ -35,7 +36,8 @@ window.addEventListener("load", function () {
   var spaMenu = document.querySelector(".spa-menu-list");
   var spaMenuTop = spaMenu.offsetTop - spaMenu.scrollTop + spaMenu.clientTop;
   toSpaMenu.addEventListener("click", function (e) {
-    document.scrollingElement.scrollTop = spaMenuTop;
+    ///document.scrollingElement.scrollTop = spaMenuTop;
+    window.scroll({ top: spaMenuTop, left: 0, behavior: 'smooth' });
   });
 });
   
